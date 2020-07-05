@@ -9,18 +9,22 @@ public class Conditioner {
 
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public int getMaxTemperature() {
+
         return maxTemperature;
     }
 
     public void setMaxTemperature(int maxTemperature) {
+
         this.maxTemperature = maxTemperature;
     }
 
@@ -29,10 +33,12 @@ public class Conditioner {
     }
 
     public void setMinTemperature(int minTemperature) {
+
         this.minTemperature = minTemperature;
     }
 
     public int getCurrentTemperature() {
+
         return currentTemperature;
     }
 
@@ -49,10 +55,12 @@ public class Conditioner {
     }
 
     public boolean isOn() {
+
         return on;
     }
 
     public void setOn(boolean on) {
+
         this.on = on;
     }
 
