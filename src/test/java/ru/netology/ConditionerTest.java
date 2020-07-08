@@ -9,7 +9,7 @@ public class ConditionerTest {
     Conditioner conditioner = new Conditioner();
 
     @Test
-    public void IncreaseCurrentTemperature() {
+    public void shouldIncreaseCurrentTemperature() {
         conditioner.setMaxTemperature(35);
         conditioner.setMinTemperature(15);
         conditioner.setCurrentTemperature(20);
@@ -18,7 +18,7 @@ public class ConditionerTest {
     }
 
     @Test
-    public void DecreaseCurrentTemperature() {
+    public void shouldDecreaseCurrentTemperature() {
         conditioner.setMaxTemperature(35);
         conditioner.setMinTemperature(15);
         conditioner.setCurrentTemperature(20);
@@ -27,7 +27,7 @@ public class ConditionerTest {
     }
 
     @Test
-    public void ShouldGetAndSetMinTemperature() {
+    public void shouldGetAndSetMinTemperature() {
         assertEquals(0, conditioner.getMinTemperature());
 
         conditioner.setMinTemperature(-15);
@@ -44,7 +44,7 @@ public class ConditionerTest {
     }
 
     @Test
-    public void ShouldGetAndSetMaxTemperature() {
+    public void shouldGetAndSetMaxTemperature() {
         assertEquals(0, conditioner.getMaxTemperature());
 
         conditioner.setMaxTemperature(20);
@@ -61,7 +61,7 @@ public class ConditionerTest {
     }
 
     @Test
-    public void ShouldGetAndSetCurrentTemperature() {
+    public void shouldGetAndSetCurrentTemperature() {
         assertEquals(0, conditioner.getCurrentTemperature());
 
         conditioner.setMinTemperature(-15);
@@ -84,7 +84,7 @@ public class ConditionerTest {
     }
 
     @Test
-    public void shouldGetAndSet() {
+    public void shouldGetAndSetName() {
 
         String expected = "Philips";
 
